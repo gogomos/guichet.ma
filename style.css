@@ -1,0 +1,451 @@
+body{
+    margin: 0 auto;
+}
+.container {
+    width: 80%; 
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.128);
+}
+.logo, .logo img {
+    width: 256px;
+    height: 62px;
+}
+.logo {
+    padding-top: 15px;
+    cursor: pointer;
+}
+.nav-items {
+    display: flex;
+    gap: 30px;
+    padding-top: 15px;
+}
+.parag{
+    margin-top: 5px;
+}
+.lolo {
+    width: 25px;
+    height: 25px;
+}
+.item {
+    text-align: center;
+    cursor: pointer;
+}
+#nav-button {
+    display: inline-flex;
+    text-align: center;
+    border: 2px solid black;
+    width: 99px;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    height: 40px;
+    color: white;
+    background-color: #071A35;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 6px rgb(82, 82, 82);
+}
+#nav-button:active {
+    transform: translateY(1px); 
+    box-shadow: none;
+}
+.header-bottom {
+    font-weight: bold;
+}
+.header-bottom menu ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.header-bottom menu ul li {
+    list-style: none;
+}
+.header-bottom menu ul li a {
+    text-decoration: none;
+    color: #5D5D5D;
+}
+.header-bottom menu ul li a:hover {
+    color: #FF6633;
+}
+#active {
+    color: #FF6633;
+}
+.header-bottom menu ul li button {
+    background-color: #ffc107;
+    border: none;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+    margin-top: -5px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.header-bottom menu ul li button:hover:active {
+    background-color: #fd7e14;
+    transform: translateY(1px); 
+    box-shadow: none;
+}
+.main-img {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100% ;
+    height: 40rem;
+    background-image: url('images/2b8ab2306287ae7805e974025aa77fc6.png');
+    object-fit: cover;
+}
+.arrow {
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    cursor: pointer;
+}
+.main-img .image {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    align-items: center;
+    flex-direction: column;
+
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 30px;
+}
+.icons div {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+    cursor: pointer;
+}
+#color {
+    background-color: white;
+}
+
+/* card */
+.row {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+}
+.card {
+    height: 432px;
+    width: 312px;
+    border: 2px solid rgba(0, 0, 0, 0.267);
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px rgb(82, 82, 82);
+}
+.card .card-img {
+    height: 180px;
+    width: 312px;
+    /* border-radius: 15px; */
+}
+.card .card-img img{
+    height: 180px;
+    width: 312px;
+    border-radius: 15px;
+}
+.card .concert-type {
+    width: 134px;
+    height: 23px;
+    background-color: #C4D3E8;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 8px;
+    margin-left: 10px;
+    color: #071A35;
+    font-size: 14px;
+    font-weight: 900;
+    align-content: center;
+}
+.card .card-img h3 {
+    margin-left: 10px;
+}
+.adress {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.adress .location img {
+    width: 25px;
+    height: 28px;
+}
+.adress p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #666666;
+}
+.time {
+    display: flex;
+    align-items: center;
+    margin-top: -14px;
+    padding-left: 10px;
+}
+.time .timer img {
+    width: 25px;
+    height: 30px;
+}
+.time p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #666666;
+}
+.time p strong {
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+.bt-1 {
+    margin-top: -4px;
+    padding-left: 14px;
+}
+.bt-1 p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #666666;
+    margin-bottom: 7px;
+}
+.bt-1 .lst {
+    display: flex;
+    justify-content: space-between;
+}
+.bt-1 .lst .price {
+    font-weight: 800;
+    font-size: 27px;
+    line-height: 25px;
+    color:#071A35 ;
+   
+}
+.bt-1 .lst .button {
+    width: 91px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    align-content: center;
+    border-radius: 8px;
+    background-color: #071A35;
+    margin-right: 15px;
+    cursor: pointer;
+    box-shadow: 1px 2px 6px rgb(82, 82, 82);
+
+}
+.bt-1 .lst .button:active {
+    transform: translateY(1px); 
+    box-shadow: none;
+}
+#ferme {
+    width: 131px;
+    height: 30px;
+    color: #071A35;
+    text-align: center;
+    align-content: center;
+    border-radius: 8px;
+    border: 1px solid #071A35;
+    margin-right: 15px;
+    cursor: pointer;
+    box-shadow: 1px 1px 6px rgb(82, 82, 82);
+
+}
+#ferme:active {
+    transform: translateY(1px);
+    box-shadow: none;
+}
+.services {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 30px;
+}
+.services .service {
+    max-width: 400px;
+}
+.services .serv-icon img {
+    width: 47px;
+    height: 60px;
+}
+.services h2 {
+    line-height: 24px;
+    color: #212529;
+}
+.services p {
+    color: #7E7F81;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+/* footer */
+footer {
+    margin-top: 50px;
+    height: 480px;
+    background-color: #f3f3f3;
+}
+.cols  {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 50px;
+}
+.col1 {
+    max-width: 500px;
+}
+.col1 p {
+    width: 417px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #111111;
+}
+.col1 h2 {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    color: #161616;
+}
+.cols .app {
+    display: flex;
+    justify-content: space-between;
+}
+.cols .app .andr , .cols .app .ios {
+    width: 199px;
+    height: 45px;
+    border-radius:6px ;
+    display: flex;
+    gap: 8px;
+    background-color: #071A35;
+    align-content: center;
+    box-shadow: 1px 1px 6px rgb(82, 82, 82);
+    cursor: pointer;
+
+}
+.cols .app .andr:active {
+    transform: translateY(1px);
+    box-shadow: none;
+}
+.cols .app .ios:active {
+    transform: translateY(1px);
+    box-shadow: none;
+}
+.andr img , .ios img {
+    padding-top: 5px;
+    object-fit: cover;
+    padding-left: 5px;
+    width: 45px;
+    height:35px ;
+}
+.cols .app .andr p , .cols .app .ios p {
+    color: #f3f3f3;
+}
+.cols .col1 .image img {
+    width: 170px;
+    height: 39px;
+}
+#intd {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #212529;
+}
+select {
+    width: 426px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #8C8C8C;
+    color: white;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.gts {
+    display: flex;
+    text-align: center;
+    gap: 10px;
+}
+.gts h2 {
+    /* text-align: center; */
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    color: #161616;
+}
+.gts ul {
+    margin-right: 10px;
+}
+.gts ul li {
+    list-style: none;
+    margin-top: 5px;
+    color: #444444;
+    font-size: 14px;
+    font-weight: 400;
+}
+.insc {
+    width: 655px;
+    height: 155px;
+    border-radius: 15px;
+    border: 1px solid #AAAAAA;
+}
+.insc h2 {
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 34px;
+    color: #212529;
+}
+.insc p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #212529;
+    margin-top: -18px;
+}
+form {
+    display: flex;
+}
+.insc form input {
+    width: 518px;
+    height: 40px;
+    margin-left: 10px;
+
+}
+.insc form div {
+    display: inline-block;
+    height: 46px;
+    width: 96px;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-align: center;
+    align-content: center;
+    background-color: #071A35;
+    cursor: pointer;
+}
+.insc form div:active {
+    transform: translateY(1px);
+}
+.copy-right {
+    height: 30px;
+    background-color: #5D5D5D;
+}
+.copy-right .content {
+    text-align: center;
+    align-content: center;
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.rainbow {
+    height: 6px;
+    background: linear-gradient(to right, 
+    red, orange, yellow, green, blue, indigo, violet);
+}
