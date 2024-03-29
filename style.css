@@ -47,7 +47,7 @@ nav {
     background-color: #071A35;
     border-radius: 5px;
     cursor: pointer;
-    box-shadow: 1px 1px 6px rgb(82, 82, 82);
+    box-shadow: 1px 1px 3px rgb(150, 150, 150);
 }
 #nav-button:active {
     transform: translateY(1px); 
@@ -141,9 +141,9 @@ nav {
 .card {
     height: 432px;
     width: 312px;
-    border: 2px solid rgba(0, 0, 0, 0.267);
+    border: 1px solid rgba(0, 0, 0, 0.267);
     border-radius: 15px;
-    box-shadow: 3px 3px 10px rgb(82, 82, 82);
+    box-shadow: 1px 1px 3px rgb(150, 150, 150);
 }
 .card:hover {
     transform: translateY(-5px);
@@ -271,9 +271,10 @@ nav {
     display: flex;
     text-align: center;
     justify-content: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     margin-top: 100px;
     gap: 30px;
+    margin-right: 205px;
 }
 .services .service {
     max-width: 400px;
