@@ -135,6 +135,7 @@ nav {
     display: flex;
     gap: 20px;
     justify-content: center;
+    /* flex-wrap: wrap; */
 
 }
 .card {
@@ -143,6 +144,10 @@ nav {
     border: 2px solid rgba(0, 0, 0, 0.267);
     border-radius: 15px;
     box-shadow: 3px 3px 10px rgb(82, 82, 82);
+}
+.card:hover {
+    transform: translateY(-5px);
+    /* transform: translateX(4px); */
 }
 .card .card-img {
     height: 180px;
@@ -266,6 +271,7 @@ nav {
     display: flex;
     text-align: center;
     justify-content: center;
+    flex-wrap: wrap;
     margin-top: 100px;
     gap: 30px;
 }
@@ -291,6 +297,7 @@ nav {
 footer {
     margin-top: 50px;
     height: 480px;
+    width: 100%;
     background-color: #f3f3f3;
 }
 .cols  {
